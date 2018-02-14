@@ -11,7 +11,7 @@ class Artist
 
   def add_song(song)
     song.artist = self
-      @songs << song unless @songs.include?(song) #checks for duplicates
+      @songs << song unless @songs.include?(song)
   end
 
   def self.all
